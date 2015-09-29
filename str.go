@@ -1,11 +1,12 @@
 package main
+
 import "fmt"
 
-func main(){
+func main() {
 	str := "hello world"
 	n := len(str)
-	for i := 0; i <n; i++ {
-	ch := str[i]
-	fmt.Println(ch)
-}
+	for i := 0; i < n; i++ {
+		ch := str[i]
+		fmt.Println(ch)
+	}
 }
